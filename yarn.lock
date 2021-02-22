@@ -1567,8 +1567,10 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@unicef/react-org-chart@file:..":
+"@unicef/react-org-chart@^0.3.4":
   version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@unicef/react-org-chart/-/react-org-chart-0.3.4.tgz#2b42efd6027dbd4024523ca8852a2a753e5841cf"
+  integrity sha512-svEnkSzaP2h4TNurTpuw+7VIbDWK9s2/adel7ErlLL6ItXNnFKvdDnGmtjjS3WCAaddxcuDoc87NtAVb+sV7xQ==
   dependencies:
     d3-save-svg "0.0.2"
     jspdf "^1.5.3"
@@ -4425,7 +4427,7 @@ file-loader@4.3.0:
     loader-utils "^1.2.3"
     schema-utils "^2.5.0"
 
-"file-saver@github:eligrey/FileSaver.js#1.3.8":
+file-saver@eligrey/FileSaver.js#1.3.8:
   version "1.3.8"
   resolved "https://codeload.github.com/eligrey/FileSaver.js/tar.gz/e865e37af9f9947ddcced76b549e27dc45c1cb2e"
 
