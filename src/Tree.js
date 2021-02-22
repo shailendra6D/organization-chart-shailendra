@@ -69,8 +69,7 @@ export const JyotsnasTeam = [
       department: '',
       name: 'Gopal Khandelwal',
       title: 'Head of Accounts',
-      totalReports: 0,
-      link: 'https://github.com/unicef/react-org-chart',
+      totalReports: 0
     },
     hasChild: false,
     hasParent: true,
@@ -84,8 +83,7 @@ export const JyotsnasTeam = [
       department: '',
       name: 'Kaynat Nasir',
       title: 'Digital Marketing Head',
-      totalReports: 4,
-      link: 'https://github.com/unicef/react-org-chart',
+      totalReports: 4
     },
     hasChild: true,
     hasParent: true,
