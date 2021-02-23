@@ -51,7 +51,7 @@ export const VinaysTeam = [
       avatar: avatarPersonnel,
       department: '',
       name: 'Akanksha Saxena',
-      title: 'IT Specialist',
+      title: 'COO',
       totalReports: 3,
     },
     hasChild: true,
