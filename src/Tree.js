@@ -556,6 +556,20 @@ export const AkankshasTeam = [
         hasParent: true,
         children: [],
       },
+      {
+        id: 56,
+        person: {
+          id: 56,
+          avatar: avatarPersonnel,
+          department: '',
+          name: 'Pallavi Bajpayee',
+          title: 'Sr. Business Development Executive',
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        children: [],
+      },
     ],
   },
   {
