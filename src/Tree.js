@@ -370,20 +370,6 @@ export const VibhorsTeam = [
       },
     ],
   },
-  {
-    id: 125,
-    person: {
-      id: 125,
-      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3enNYDKFhc6CfcUV0Wi_O8bOuzfMfp-LchQT1aU9t-FkwHlFEZFoTOopARUIWbo4cmrqcaRuPIJbvgRGmPhjIWKvB9NoViW__6h0BK4TYawtA5AsUYOrVlcd9m1Tk62KS6BVY_65y75WULkPDmNXQ0=w586-h1017-no?authuser=0',
-      department: '',
-      name: 'Churchill Gupta',
-      title: 'Quality Analyst',
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    // children: [],
-  },
 ]
 
 export const AmitsTeam = [
@@ -900,6 +886,20 @@ export const AnkitsTeam = [
           department: '',
           name: 'Ratnesh Jaiswal',
           title: 'Jr. Full-stack Developer',
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        // children: [],
+      },
+      {
+        id: 125,
+        person: {
+          id: 125,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3enNYDKFhc6CfcUV0Wi_O8bOuzfMfp-LchQT1aU9t-FkwHlFEZFoTOopARUIWbo4cmrqcaRuPIJbvgRGmPhjIWKvB9NoViW__6h0BK4TYawtA5AsUYOrVlcd9m1Tk62KS6BVY_65y75WULkPDmNXQ0=w586-h1017-no?authuser=0',
+          department: '',
+          name: 'Churchill Gupta',
+          title: 'Quality Analyst',
           totalReports: 0,
         },
         hasChild: false,
