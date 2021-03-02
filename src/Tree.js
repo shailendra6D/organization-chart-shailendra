@@ -1,32 +1,31 @@
-import VinayPersonnel from './assets/avatar-personnel.svg';
-import JyotsnaPersonnel from './assets/avatar-personnel.svg';
-import GopalPersonnel from './assets/avatar-personnel.svg';
-import KaynatPersonnel from './assets/avatar-personnel.svg';
-import NitikaPersonnel from './assets/avatar-personnel.svg';
+import VinayPersonnel from './assets/VINAY.jpg';
+import JyotsnaPersonnel from './assets/JYOTSNA.jpg';
+import GopalPersonnel from './assets/Gopal.jpg';
+import KaynatPersonnel from './assets/KAYNAT.jpg';
+import NitikaPersonnel from './assets/NITIKA.jpg';
 import ArchanaPersonnel from './assets/avatar-personnel.svg';
-import SakshiPersonnel from './assets/avatar-personnel.svg';
-import MonicaPersonnel from './assets/avatar-personnel.svg';
-import SureshPersonnel from './assets/avatar-personnel.svg';
-import AnkitPersonnel from './assets/avatar-personnel.svg';
-import RajendraPersonnel from './assets/avatar-personnel.svg';
-import PankajPersonnel from './assets/avatar-personnel.svg';
-import PrafullPersonnel from './assets/avatar-personnel.svg';
-import KrishnapalPersonnel from './assets/avatar-personnel.svg';
-import ManishPersonnel from './assets/avatar-personnel.svg';
-import AnshulPersonnel from './assets/avatar-personnel.svg';
-import AbhimanyuPersonnel from './assets/avatar-personnel.svg';
-import AmitPersonnel from './assets/avatar-personnel.svg';
-import MayankPersonnel from './assets/avatar-personnel.svg';
-import PoojalPersonnel from './assets/avatar-personnel.svg';
-import VinodPersonnel from './assets/avatar-personnel.svg';
-import AbhishekPersonnel from './assets/avatar-personnel.svg';
+import SakshiPersonnel from './assets/SAKSHI.jpg';
+import MonicaPersonnel from './assets/MONICA.jpg';
+import SureshPersonnel from './assets/SURESH.jpg';
+import AnkitPersonnel from './assets/ANKIT.jpg';
+import RajendraPersonnel from './assets/RAJENDRA.jpg';
+import PankajPersonnel from './assets/PANKAJ.jpg';
+import PrafullPersonnel from './assets/PRAFULL.jpg';
+import KrishnapalPersonnel from './assets/KRISHNAPAL.jpg';
+import ManishPersonnel from './assets/MANISH.jpg';
+import AnshulPersonnel from './assets/ANSHUL.jpg';
+import AbhimanyuPersonnel from './assets/ABHIMANYU.jpg';
+import AmitPersonnel from './assets/AMIT.jpg';
+import MayankPersonnel from './assets/MAYANK.jpg';
+import PoojalPersonnel from './assets/POOJAL.jpg';
+import VinodPersonnel from './assets/VINOD.jpg';
+import AbhishekPersonnel from './assets/ABHISHEK.jpg';
 import BhupendraPersonnel from './assets/avatar-personnel.svg';
-import PrithvirajPersonnel from './assets/avatar-personnel.svg';
 import ImranPersonnel from './assets/avatar-personnel.svg';
 import RahulPersonnel from './assets/avatar-personnel.svg';
-import YashwantPersonnel from './assets/avatar-personnel.svg';
+import YashwantPersonnel from './assets/YASHWANT.jpg';
 import ShadabPersonnel from './assets/avatar-personnel.svg';
-import GarimaPersonnel from './assets/avatar-personnel.svg';
+import GarimaPersonnel from './assets/GARIMA.jpg';
 import VikalpPersonnel from './assets/avatar-personnel.svg';
 
 export const Vinay = {
@@ -677,7 +676,7 @@ export const AbhisheksTeam = [
         id: 13412,
         person: {
           id: 13412,
-          avatar: PrithvirajPersonnel,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3fsCpmG28y01WKdUcCdEsZoEIzQifsJ6B34QVQ_vwFl7WYYuC9w6AKzmvJwTqA9WHmav_kM5-j8FJjcy2vyqG5ZRKnT4qx4R8-ed36tBcrwxGF568IS7hp_cp7zXIMv60qh152A0FeljByMe4mMbdk=w1274-h1592-no?authuser=0',
           department: '',
           name: 'Prithviraj',
           title: 'Web Designer',
