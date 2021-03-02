@@ -28,6 +28,7 @@ import ShadabPersonnel from './assets/avatar-personnel.svg';
 import GarimaPersonnel from './assets/GARIMA.jpg';
 import VikalpPersonnel from './assets/avatar-personnel.svg';
 import ArchanaSharmaPersonnel from './assets/avatar-personnel.svg';
+import AvatarPersonnel from './assets/avatar-personnel.svg';
 
 export const Vinay = {
   id: 1,
@@ -81,7 +82,7 @@ export const VinaysTeam = [
       department: '',
       name: 'Akanksha Saxena',
       title: 'COO',
-      totalReports: 4,
+      totalReports: 3,
     },
     hasChild: true,
     hasParent: true,
@@ -112,7 +113,7 @@ export const JyotsnasTeam = [
       department: '',
       name: 'Kaynat Nasir',
       title: 'Digital Marketing Head',
-      totalReports: 3
+      totalReports: 4
     },
     hasChild: true,
     hasParent: true,
@@ -121,40 +122,12 @@ export const JyotsnasTeam = [
 
 export const KaynatsTeam = [
   {
-    id: 1121,
-    person: {
-      id: 1121,
-      avatar: NitikaPersonnel,
-      department: '',
-      name: 'Nitika Lunia',
-      title: 'Digital Marketing - Team Lead',
-      totalReports: 4,
-    },
-    hasChild: true,
-    hasParent: true,
-    // children: [],
-  },
-  {
-    id: 1122,
-    person: {
-      id: 1122,
-      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3cyhpMaCY6BMDC7IvyRGaSX4bPI4QFycf43WvBoeE2XupS1-gsPFXicHbaMSJKUwDlWv0qjbgvX-UDoaxDqfUbYEXX_Cew6DSsyFLJsc75oUvDMK-Xq4YME3jBrUXF4Xuqpsb7k6LBuKdUpbm2T8EE=w948-h943-no?authuser=0',
-      department: '',
-      name: 'Anima Tripathi',
-      title: 'PPC Executive',
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    // children: [],
-  },
-  {
     id: 1123,
     person: {
       id: 1123,
       avatar: ArchanaPersonnel,
       department: '',
-      name: 'Archana',
+      name: 'Archana Kumari',
       title: 'Content Writer',
       totalReports: 0,
     },
@@ -162,51 +135,95 @@ export const KaynatsTeam = [
     hasParent: true,
     // children: [],
   },
+  {
+    id: 1121,
+    person: {
+      id: 1121,
+      avatar: NitikaPersonnel,
+      department: '',
+      name: 'Nitika Lunia',
+      title: 'Team Lead - SEO Expert',
+      totalReports: 2,
+    },
+    hasChild: true,
+    hasParent: true,
+    // children: [],
+  },
+  {
+    id: 1124,
+    person: {
+      id: 1124,
+      avatar: AvatarPersonnel,
+      department: '',
+      name: 'Shadab Khan',
+      title: 'Team Lead - SEO Expert',
+      totalReports: 2,
+    },
+    hasChild: false,
+    hasParent: true,
+    children: [
+      {
+        id: 11213,
+        person: {
+          id: 11213,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3dO1YLkz5C-Bj6j6qtyjHmd924t0aW4SKwJD0GOn-C8LY_FGtgZ7EJDoCr0WZx-KdcJus-M2IZ3NogO5RSQcslq0fCpCQDzn3QBRP4IsaDXEZviDM1l53bhrwkX5bMplRw5WejR1mOT9jFtsRxxqmQ=w1194-h1592-no?authuser=0',
+          department: '',
+          name: 'Anas Ahemad',
+          title: 'SEO Executive',
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        children: [],
+      },
+      {
+        id: 11212,
+        person: {
+          id: 11212,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3fPv7G1sTtPaD5awcLTTnzqPn8eVXRW8vY32pqQMx2QbMQ_elgpHAfyVd5LTOMTLWhMshjoRuTPQhm-2jE-HN5V_1zKERn_Mr_XSCsQrRdGlnSeSfqE_07hypgecy5RqEmxDvpPjThF6KLYGOLx2M0=w960-h1280-no?authuser=0',
+          department: '',
+          name: 'Wasim Khan',
+          title: 'SEO Executive',
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 1125,
+    person: {
+      id: 1125,
+      avatar: AvatarPersonnel,
+      department: '',
+      name: 'Vaibhav Jain',
+      title: 'PPC Expert',
+      totalReports: 1,
+    },
+    hasChild: false,
+    hasParent: true,
+    children: [
+      {
+        id: 1122,
+        person: {
+          id: 1122,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3cyhpMaCY6BMDC7IvyRGaSX4bPI4QFycf43WvBoeE2XupS1-gsPFXicHbaMSJKUwDlWv0qjbgvX-UDoaxDqfUbYEXX_Cew6DSsyFLJsc75oUvDMK-Xq4YME3jBrUXF4Xuqpsb7k6LBuKdUpbm2T8EE=w948-h943-no?authuser=0',
+          department: '',
+          name: 'Anima Tripathi',
+          title: 'PPC Executive',
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        // children: [],
+      },
+    ],
+  },
 ]
 
 export const NitikasTeam = [
-  {
-    id: 11211,
-    person: {
-      id: 11211,
-      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3eLCDWqVdgxJUqgCgpGfR--KLWlRDFH7l3LALkbZE6zeKfq6g-kDT2JVlqGsrpu7O1vgJHzV0B18kCzMGrfsT9DxAdJg7QrMPMiShQMitqA13QiGKNw5GUZQJKAnQ1KJf8iITI7yvhc832Rh3ermNNl=w1088-h1592-no?authuser=0',
-      department: '',
-      name: 'Bhuvnesh Mali',
-      title: 'SEO Executive',
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    children: [],
-  },
-  {
-    id: 11212,
-    person: {
-      id: 11212,
-      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3fPv7G1sTtPaD5awcLTTnzqPn8eVXRW8vY32pqQMx2QbMQ_elgpHAfyVd5LTOMTLWhMshjoRuTPQhm-2jE-HN5V_1zKERn_Mr_XSCsQrRdGlnSeSfqE_07hypgecy5RqEmxDvpPjThF6KLYGOLx2M0=w960-h1280-no?authuser=0',
-      department: '',
-      name: 'Wasim Khan',
-      title: 'SEO Executive',
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    children: [],
-  },
-  {
-    id: 11213,
-    person: {
-      id: 11213,
-      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3dO1YLkz5C-Bj6j6qtyjHmd924t0aW4SKwJD0GOn-C8LY_FGtgZ7EJDoCr0WZx-KdcJus-M2IZ3NogO5RSQcslq0fCpCQDzn3QBRP4IsaDXEZviDM1l53bhrwkX5bMplRw5WejR1mOT9jFtsRxxqmQ=w1194-h1592-no?authuser=0',
-      department: '',
-      name: 'Anas Ahemad',
-      title: 'SEO Executive',
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    children: [],
-  },
   {
     id: 11214,
     person: {
@@ -214,6 +231,20 @@ export const NitikasTeam = [
       avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3dbhE4kotKPU0FKcsJ6VEnqgEFHBmYIO88je2hMn7pzkkX1xhD-AXjDegETCfyZiBnHGIID4YPHFEqLs2Z0wNhP9e3-C5wj_CXWw063Y-Y697mMVEwjWS_SRbfKF541NmUubCbTZnt-h0DqJEdK6VXv=w740-h812-no?authuser=0',
       department: '',
       name: 'Isha Choudhary',
+      title: 'SEO Executive',
+      totalReports: 0,
+    },
+    hasChild: false,
+    hasParent: true,
+    children: [],
+  },
+  {
+    id: 11211,
+    person: {
+      id: 11211,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3eLCDWqVdgxJUqgCgpGfR--KLWlRDFH7l3LALkbZE6zeKfq6g-kDT2JVlqGsrpu7O1vgJHzV0B18kCzMGrfsT9DxAdJg7QrMPMiShQMitqA13QiGKNw5GUZQJKAnQ1KJf8iITI7yvhc832Rh3ermNNl=w1088-h1592-no?authuser=0',
+      department: '',
+      name: 'Bhuvnesh Mali',
       title: 'SEO Executive',
       totalReports: 0,
     },
@@ -485,22 +516,6 @@ export const AmitsTeam = [
     hasParent: true,
     // children: [],
   },
-]
-export const AkankshasTeam = [
-  {
-    id: 131,
-    person: {
-      id: 131,
-      avatar: AmitPersonnel,
-      department: '',
-      name: 'Amit Bokde',
-      title: 'Solutions Architect',
-      totalReports: 4,
-    },
-    hasChild: true,
-    hasParent: true,
-    // children: [],
-  },
   {
     id: 132,
     person: {
@@ -572,6 +587,22 @@ export const AkankshasTeam = [
       },
     ],
   },
+]
+export const AkankshasTeam = [
+  {
+    id: 131,
+    person: {
+      id: 131,
+      avatar: AmitPersonnel,
+      department: '',
+      name: 'Amit Bokde',
+      title: 'Solutions Architect',
+      totalReports: 5,
+    },
+    hasChild: true,
+    hasParent: true,
+    // children: [],
+  },
   {
     id: 133,
     person: {
@@ -637,7 +668,7 @@ export const AkankshasTeam = [
       department: '',
       name: 'Abhishek Shukla',
       title: 'Sr. Project Manager',
-      totalReports: 5,
+      totalReports: 6,
     },
     hasChild: true,
     hasParent: true,
@@ -733,32 +764,18 @@ export const AbhisheksTeam = [
     ],
   },
   {
-    id: 1344,
+    id: 13441,
     person: {
-      id: 1344,
-      avatar: RahulPersonnel,
+      id: 13441,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3egimxZW0j04x68yrtGyTGf5bFMd6IHsiRjAzUUKy6TH1UkvSz1V0x0hsrcihmrESK_O4WqdnTTrVwsDQVPbPWrZ7ZhmFhXiRLNIKu4kyg9rLsrpbO8TeXt4qP4lxncMHj5uYszP5ok614O8IQMFVeg=w1069-h1520-no?authuser=0',
       department: '',
-      name: 'Rahul Patidar',
-      title: 'Wordpress Development Lead',
-      totalReports: 3,
+      name: 'Divya Doshi',
+      title: 'Web Developer',
+      totalReports: 2,
     },
-    hasChild: true,
+    hasChild: false,
     hasParent: true,
     children: [
-      {
-        id: 13441,
-        person: {
-          id: 13441,
-          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3egimxZW0j04x68yrtGyTGf5bFMd6IHsiRjAzUUKy6TH1UkvSz1V0x0hsrcihmrESK_O4WqdnTTrVwsDQVPbPWrZ7ZhmFhXiRLNIKu4kyg9rLsrpbO8TeXt4qP4lxncMHj5uYszP5ok614O8IQMFVeg=w1069-h1520-no?authuser=0',
-          department: '',
-          name: 'Divya Doshi',
-          title: 'Web Developer',
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        children: [],
-      },
       {
         id: 13442,
         person: {
@@ -788,6 +805,20 @@ export const AbhisheksTeam = [
         children: [],
       },
     ],
+  },
+  {
+    id: 1344,
+    person: {
+      id: 1344,
+      avatar: RahulPersonnel,
+      department: '',
+      name: 'Rahul Patidar',
+      title: 'Wordpress Development Lead',
+      totalReports: 0,
+    },
+    hasChild: true,
+    hasParent: true,
+    // children: [],
   },
   {
     id: 13444,
