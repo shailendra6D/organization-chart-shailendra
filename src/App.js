@@ -14,7 +14,7 @@ import {
   AkankshasTeam,
   AbhisheksTeam
 } from './Tree'
-import avatarPersonnel from './assets/avatar-personnel.svg'
+
 
 export default class App extends React.Component {
   constructor(props) {
@@ -32,21 +32,21 @@ export default class App extends React.Component {
     switch (id) {
       case 1:
         return VinaysTeam
-      case 2:
+      case 11:
         return JyotsnasTeam
-      case 4:
-        return AkankshasTeam
-      case 6:
-        return KaynatsTeam
-      case 7:
-        return NitikasTeam
-      case 3:
+      case 12:
         return VibhorsTeam
-      case 16:
+      case 13:
+        return AkankshasTeam
+      case 112:
+        return KaynatsTeam
+      case 1121:
+        return NitikasTeam
+      case 123:
         return AnkitsTeam
-      case 27:
+      case 131:
         return AmitsTeam
-      case 43:
+      case 134:
         return AbhisheksTeam
       default:
         return console.log('no children')
@@ -121,7 +121,7 @@ export default class App extends React.Component {
                 this.handleDownload()
               }}
               loadImage={d => {
-                return Promise.resolve(avatarPersonnel)
+                return Promise.resolve(d.avatar)
               }}
               loadParent={d => {
                 const parentData = this.getParent(d)

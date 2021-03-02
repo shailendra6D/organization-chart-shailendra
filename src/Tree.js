@@ -1,10 +1,41 @@
-import avatarPersonnel from './assets/avatar-personnel.svg'
+import VinayPersonnel from './assets/avatar-personnel.svg';
+import JyotsnaPersonnel from './assets/avatar-personnel.svg';
+import GopalPersonnel from './assets/avatar-personnel.svg';
+import KaynatPersonnel from './assets/avatar-personnel.svg';
+import NitikaPersonnel from './assets/avatar-personnel.svg';
+import ArchanaPersonnel from './assets/avatar-personnel.svg';
+import SakshiPersonnel from './assets/avatar-personnel.svg';
+import MonicaPersonnel from './assets/avatar-personnel.svg';
+import SureshPersonnel from './assets/avatar-personnel.svg';
+import AnkitPersonnel from './assets/avatar-personnel.svg';
+import RajendraPersonnel from './assets/avatar-personnel.svg';
+import ChurchillPersonnel from './assets/avatar-personnel.svg';
+import PankajPersonnel from './assets/avatar-personnel.svg';
+import PrafullPersonnel from './assets/avatar-personnel.svg';
+import KrishnapalPersonnel from './assets/avatar-personnel.svg';
+import ManishPersonnel from './assets/avatar-personnel.svg';
+import AnshulPersonnel from './assets/avatar-personnel.svg';
+import AbhimanyuPersonnel from './assets/avatar-personnel.svg';
+import AmitPersonnel from './assets/avatar-personnel.svg';
+import MayankPersonnel from './assets/avatar-personnel.svg';
+import PoojalPersonnel from './assets/avatar-personnel.svg';
+import VinodPersonnel from './assets/avatar-personnel.svg';
+import AbhishekPersonnel from './assets/avatar-personnel.svg';
+import BhupendraPersonnel from './assets/avatar-personnel.svg';
+import PrithvirajPersonnel from './assets/avatar-personnel.svg';
+import ImranPersonnel from './assets/avatar-personnel.svg';
+import RahulPersonnel from './assets/avatar-personnel.svg';
+import YashwantPersonnel from './assets/avatar-personnel.svg';
+import ShadabPersonnel from './assets/avatar-personnel.svg';
+import GarimaPersonnel from './assets/avatar-personnel.svg';
+import NitinPersonnel from './assets/avatar-personnel.svg';
+import VikalpPersonnel from './assets/avatar-personnel.svg';
 
 export const Vinay = {
   id: 1,
   person: {
     id: 1,
-    avatar: avatarPersonnel,
+    avatar: VinayPersonnel,
     department: '',
     name: 'Vinay Deshmukh',
     title: 'CEO',
@@ -17,10 +48,10 @@ export const Vinay = {
 
 export const VinaysTeam = [
   {
-    id: 2,
+    id: 11,
     person: {
-      id: 2,
-      avatar: avatarPersonnel,
+      id: 11,
+      avatar: JyotsnaPersonnel,
       department: '',
       name: 'Jyotsna Deshmukh',
       title: 'CFO',
@@ -31,10 +62,10 @@ export const VinaysTeam = [
     // children: [],
   },
   {
-    id: 3,
+    id: 12,
     person: {
-      id: 3,
-      avatar: avatarPersonnel,
+      id: 12,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3eEyT07sUoRuWNaH8Eo9AHrQ7FnZCWXLIQDHjv80anRsXbfZU3dTfJPY-Ee5SVE5OkGSvhZvEzEqRBt7zHD56YilPLMShbuA9NXSi6oCUvhvegsf5F2D92Lu3HYt-aEQen-qhmnegfkbs75wBY3D7J_7g=w1054-h1592-no?authuser=0',
       department: '',
       name: 'Vibhor Mungee',
       title: 'CTO',
@@ -45,10 +76,10 @@ export const VinaysTeam = [
     // children: [],
   },
   {
-    id: 4,
+    id: 13,
     person: {
-      id: 4,
-      avatar: avatarPersonnel,
+      id: 13,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3frzkjprcFMp90hZrv7dc617jZluMrM7VEY_VxXnwG8wP5sq4Hv7iAoeMWEla-4dd7iGwS9UcAQIytAYp6T_O81qHPfcIktLZdCXySzP524f14aWY7l1tb8ADv9lNIdfAnQTbmg8KJQ8XVneU8sSGRV=w585-h740-no?authuser=0',
       department: '',
       name: 'Akanksha Saxena',
       title: 'COO',
@@ -62,10 +93,10 @@ export const VinaysTeam = [
 
 export const JyotsnasTeam = [
   {
-    id: 5,
+    id: 111,
     person: {
-      id: 5,
-      avatar: avatarPersonnel,
+      id: 111,
+      avatar: GopalPersonnel,
       department: '',
       name: 'Gopal Khandelwal',
       title: 'Head of Accounts',
@@ -76,10 +107,10 @@ export const JyotsnasTeam = [
     // children: [],
   },
   {
-    id: 6,
+    id: 112,
     person: {
-      id: 6,
-      avatar: avatarPersonnel,
+      id: 112,
+      avatar: KaynatPersonnel,
       department: '',
       name: 'Kaynat Nasir',
       title: 'Digital Marketing Head',
@@ -92,10 +123,10 @@ export const JyotsnasTeam = [
 
 export const KaynatsTeam = [
   {
-    id: 7,
+    id: 1121,
     person: {
-      id: 7,
-      avatar: avatarPersonnel,
+      id: 1121,
+      avatar: NitikaPersonnel,
       department: '',
       name: 'Nitika Lunia',
       title: 'Digital Marketing - Team Lead',
@@ -103,13 +134,13 @@ export const KaynatsTeam = [
     },
     hasChild: true,
     hasParent: true,
-    children: [],
+    // children: [],
   },
   {
-    id: 8,
+    id: 1122,
     person: {
-      id: 8,
-      avatar: avatarPersonnel,
+      id: 1122,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3cyhpMaCY6BMDC7IvyRGaSX4bPI4QFycf43WvBoeE2XupS1-gsPFXicHbaMSJKUwDlWv0qjbgvX-UDoaxDqfUbYEXX_Cew6DSsyFLJsc75oUvDMK-Xq4YME3jBrUXF4Xuqpsb7k6LBuKdUpbm2T8EE=w948-h943-no?authuser=0',
       department: '',
       name: 'Anima Tripathi',
       title: 'PPC Executive',
@@ -117,13 +148,13 @@ export const KaynatsTeam = [
     },
     hasChild: false,
     hasParent: true,
-    children: [],
+    // children: [],
   },
   {
-    id: 9,
+    id: 1123,
     person: {
-      id: 9,
-      avatar: avatarPersonnel,
+      id: 1123,
+      avatar: ArchanaPersonnel,
       department: '',
       name: 'Archana',
       title: 'Content Writer',
@@ -131,16 +162,16 @@ export const KaynatsTeam = [
     },
     hasChild: false,
     hasParent: true,
-    children: [],
+    // children: [],
   },
 ]
 
 export const NitikasTeam = [
   {
-    id: 10,
+    id: 11211,
     person: {
-      id: 10,
-      avatar: avatarPersonnel,
+      id: 11211,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3eLCDWqVdgxJUqgCgpGfR--KLWlRDFH7l3LALkbZE6zeKfq6g-kDT2JVlqGsrpu7O1vgJHzV0B18kCzMGrfsT9DxAdJg7QrMPMiShQMitqA13QiGKNw5GUZQJKAnQ1KJf8iITI7yvhc832Rh3ermNNl=w1088-h1592-no?authuser=0',
       department: '',
       name: 'Bhuvnesh Mali',
       title: 'SEO Executive',
@@ -151,10 +182,10 @@ export const NitikasTeam = [
     children: [],
   },
   {
-    id: 11,
+    id: 11212,
     person: {
-      id: 11,
-      avatar: avatarPersonnel,
+      id: 11212,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3fPv7G1sTtPaD5awcLTTnzqPn8eVXRW8vY32pqQMx2QbMQ_elgpHAfyVd5LTOMTLWhMshjoRuTPQhm-2jE-HN5V_1zKERn_Mr_XSCsQrRdGlnSeSfqE_07hypgecy5RqEmxDvpPjThF6KLYGOLx2M0=w960-h1280-no?authuser=0',
       department: '',
       name: 'Wasim Khan',
       title: 'SEO Executive',
@@ -165,10 +196,10 @@ export const NitikasTeam = [
     children: [],
   },
   {
-    id: 12,
+    id: 11213,
     person: {
-      id: 12,
-      avatar: avatarPersonnel,
+      id: 11213,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3dO1YLkz5C-Bj6j6qtyjHmd924t0aW4SKwJD0GOn-C8LY_FGtgZ7EJDoCr0WZx-KdcJus-M2IZ3NogO5RSQcslq0fCpCQDzn3QBRP4IsaDXEZviDM1l53bhrwkX5bMplRw5WejR1mOT9jFtsRxxqmQ=w1194-h1592-no?authuser=0',
       department: '',
       name: 'Anas Ahemad',
       title: 'SEO Executive',
@@ -179,10 +210,10 @@ export const NitikasTeam = [
     children: [],
   },
   {
-    id: 13,
+    id: 11214,
     person: {
-      id: 13,
-      avatar: avatarPersonnel,
+      id: 11214,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3dbhE4kotKPU0FKcsJ6VEnqgEFHBmYIO88je2hMn7pzkkX1xhD-AXjDegETCfyZiBnHGIID4YPHFEqLs2Z0wNhP9e3-C5wj_CXWw063Y-Y697mMVEwjWS_SRbfKF541NmUubCbTZnt-h0DqJEdK6VXv=w740-h812-no?authuser=0',
       department: '',
       name: 'Isha Choudhary',
       title: 'SEO Executive',
@@ -196,10 +227,10 @@ export const NitikasTeam = [
 
 export const VibhorsTeam = [
   {
-    id: 14,
+    id: 121,
     person: {
-      id: 14,
-      avatar: avatarPersonnel,
+      id: 121,
+      avatar: SakshiPersonnel,
       department: '',
       name: 'Sakshi Dua',
       title: 'Android Lead',
@@ -209,10 +240,10 @@ export const VibhorsTeam = [
     hasParent: true,
     children: [
       {
-        id: 23,
+        id: 1211,
         person: {
-          id: 23,
-          avatar: avatarPersonnel,
+          id: 1211,
+          avatar: MonicaPersonnel,
           department: '',
           name: 'Monica Patel',
           title: 'Sr. Android Developer',
@@ -223,10 +254,10 @@ export const VibhorsTeam = [
         // children: [],
       },
       {
-        id: 24,
+        id: 1212,
         person: {
           id: 24,
-          avatar: avatarPersonnel,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3eTsxALKW0gB3wN2DnGeen7gGLAnRM4iIWL1ZmhEXloOD6iB_h8FY5vPZaV3JyDI7QLpnF09N2qvKubcop7qqLhEyWG42TcEUxrvXSnDaib_n0PtLtHc7MftSnn_arLEQy8rP2vS54888yjdda5dgg=w958-h1280-no?authuser=0',
           department: '',
           name: 'Dimple Badera',
           title: 'Android Developer',
@@ -239,10 +270,10 @@ export const VibhorsTeam = [
     ],
   },
   {
-    id: 15,
+    id: 122,
     person: {
-      id: 15,
-      avatar: avatarPersonnel,
+      id: 122,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3fflaFG3Y_F4z-plYSMx7ph2Ojks46jKAg-Ui5zveQ_mGi5llvdG1o0L0dq8DMQsD4RLY83uyzcWwh_H6dgRE39nUd5xUx0d5TUM6IET6xqwgLCp2_7b6B3PQxeAUsDd9h1sqo_IPlPzzuwNdaX1kY=s640-no?authuser=0',
       department: '',
       name: 'Hemraj Jhariya',
       title: 'iOS Lead',
@@ -252,10 +283,10 @@ export const VibhorsTeam = [
     hasParent: true,
     children: [
       {
-        id: 20,
+        id: 1221,
         person: {
-          id: 20,
-          avatar: avatarPersonnel,
+          id: 1221,
+          avatar: SureshPersonnel,
           department: '',
           name: 'Suresh Patidar',
           title: 'iOS Developer',
@@ -268,10 +299,10 @@ export const VibhorsTeam = [
     ],
   },
   {
-    id: 16,
+    id: 123,
     person: {
-      id: 16,
-      avatar: avatarPersonnel,
+      id: 123,
+      avatar: AnkitPersonnel,
       department: '',
       name: 'Ankit Bajaj',
       title: 'Full Stack Lead',
@@ -282,10 +313,10 @@ export const VibhorsTeam = [
     // children: [],
   },
   {
-    id: 17,
+    id: 124,
     person: {
-      id: 17,
-      avatar: avatarPersonnel,
+      id: 124,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3dpY-dKQZrSYjKebHV9tRTPdF5c-xFdD3OVsLa-BLfkr2j-ZAspIc9VpABDrnk-hQtY_9lYyTFYvUUTRn4UjGWBARUVuzOQ31rFOjFPmVAER_JsIirDhIhCMkvCSsLQLLnGkpDo3x4zwKT_viiVc-yJ=w1280-h960-no?authuser=0',
       department: '',
       name: 'Rajnish Malakar',
       title: 'System Admin Lead',
@@ -295,10 +326,10 @@ export const VibhorsTeam = [
     hasParent: true,
     children: [
       {
-        id: 18,
+        id: 1241,
         person: {
-          id: 18,
-          avatar: avatarPersonnel,
+          id: 1241,
+          avatar: RajendraPersonnel,
           department: '',
           name: 'Rajendra Patel',
           title: 'System Admin',
@@ -311,10 +342,10 @@ export const VibhorsTeam = [
     ],
   },
   {
-    id: 19,
+    id: 125,
     person: {
-      id: 19,
-      avatar: avatarPersonnel,
+      id: 125,
+      avatar: ChurchillPersonnel,
       department: '',
       name: 'Churchill Gupta',
       title: 'Quality Analyst',
@@ -324,28 +355,14 @@ export const VibhorsTeam = [
     hasParent: true,
     // children: [],
   },
-  {
-    id: 27,
-    person: {
-      id: 27,
-      avatar: avatarPersonnel,
-      department: '',
-      name: 'Amit Bokde',
-      title: 'Solutions Architect',
-      totalReports: 4,
-    },
-    hasChild: true,
-    hasParent: true,
-    // children: [],
-  },
 ]
 
 export const AmitsTeam = [
   {
-    id: 28,
+    id: 1311,
     person: {
-      id: 28,
-      avatar: avatarPersonnel,
+      id: 1311,
+      avatar: PankajPersonnel,
       department: '',
       name: 'Pankaj Sharma',
       title: 'Tech lead',
@@ -355,10 +372,10 @@ export const AmitsTeam = [
     hasParent: true,
     children: [
       {
-        id: 33,
+        id: 13111,
         person: {
-          id: 33,
-          avatar: avatarPersonnel,
+          id: 13111,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3eLtgR1XBePXLjTdt2_jr1y49gGW10_rDGPPQuRrkIagWmla8hqkvmHmjOYWzawMyoPfv-ACzI8ipZwOEoVglDyjpai6tnuygNRNXjX06QE3gyhbzuDyeAFP9l6DB07Zc7omVmglqDwg4WJsIcN2Ok=w648-h1146-no?authuser=0',
           department: '',
           name: 'Farha Khan',
           title: 'PHP Developer',
@@ -369,10 +386,10 @@ export const AmitsTeam = [
         // children: [],
       },
       {
-        id: 34,
+        id: 13112,
         person: {
-          id: 34,
-          avatar: avatarPersonnel,
+          id: 13112,
+          avatar: PrafullPersonnel,
           department: '',
           name: 'Prafull Patidar',
           title: 'PHP Developer',
@@ -385,10 +402,10 @@ export const AmitsTeam = [
     ],
   },
   {
-    id: 29,
+    id: 1312,
     person: {
-      id: 29,
-      avatar: avatarPersonnel,
+      id: 1312,
+      avatar: KrishnapalPersonnel,
       department: '',
       name: 'Krishnapal Dhakad',
       title: 'Tech lead',
@@ -398,10 +415,10 @@ export const AmitsTeam = [
     hasParent: true,
     children: [
       {
-        id: 32,
+        id: 13121,
         person: {
-          id: 32,
-          avatar: avatarPersonnel,
+          id: 13121,
+          avatar: ManishPersonnel,
           department: '',
           name: 'Manish Yadav',
           title: 'Sr. PHP Developer',
@@ -414,10 +431,10 @@ export const AmitsTeam = [
     ],
   },
   {
-    id: 30,
+    id: 1313,
     person: {
-      id: 30,
-      avatar: avatarPersonnel,
+      id: 1313,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3cX5xT7BhqxyFIZlOQg78sZVLbtRWhltK7-IHRy43ntM3RlYUgKvy0lm5QjVMcN67oTommyeM2X2NyqwNtL-gWdWusCGU7qmbC8MEZOscZD8fXXKrjL2BDdioJXryTH3zDzsGEkdtgxsE_RqGlj7po=w1218-h1592-no?authuser=0',
       department: '',
       name: 'Prathak Godawat',
       title: 'Tech lead',
@@ -427,10 +444,10 @@ export const AmitsTeam = [
     hasParent: true,
     children: [
       {
-        id: 31,
+        id: 13131,
         person: {
-          id: 31,
-          avatar: avatarPersonnel,
+          id: 13131,
+          avatar: AnshulPersonnel,
           department: '',
           name: 'Anshul Bhawasar',
           title: 'PHP Developer',
@@ -443,10 +460,10 @@ export const AmitsTeam = [
     ],
   },
   {
-    id: 35,
+    id: 1314,
     person: {
-      id: 35,
-      avatar: avatarPersonnel,
+      id: 1314,
+      avatar: AbhimanyuPersonnel,
       department: '',
       name: 'Abhimanyu Soni',
       title: 'Sr. Designer',
@@ -459,10 +476,24 @@ export const AmitsTeam = [
 ]
 export const AkankshasTeam = [
   {
-    id: 36,
+    id: 131,
     person: {
-      id: 36,
-      avatar: avatarPersonnel,
+      id: 131,
+      avatar: AmitPersonnel,
+      department: '',
+      name: 'Amit Bokde',
+      title: 'Solutions Architect',
+      totalReports: 4,
+    },
+    hasChild: true,
+    hasParent: true,
+    // children: [],
+  },
+  {
+    id: 132,
+    person: {
+      id: 132,
+      avatar: MayankPersonnel,
       department: '',
       name: 'Mayank Sharma',
       title: 'Quality Analyst Lead',
@@ -472,10 +503,10 @@ export const AkankshasTeam = [
     hasParent: true,
     children: [
       {
-        id: 37,
+        id: 1321,
         person: {
-          id: 37,
-          avatar: avatarPersonnel,
+          id: 1321,
+          avatar: PoojalPersonnel,
           department: '',
           name: 'Poojal Joshi',
           title: 'Sr. Quality Analyst',
@@ -486,10 +517,10 @@ export const AkankshasTeam = [
         // children: [],
       },
       {
-        id: 38,
+        id: 1322,
         person: {
-          id: 38,
-          avatar: avatarPersonnel,
+          id: 1322,
+          avatar: VinodPersonnel,
           department: '',
           name: 'Vinod Noneria',
           title: 'Sr. Quality Analyst',
@@ -500,10 +531,10 @@ export const AkankshasTeam = [
         // children: [],
       },
       {
-        id: 40,
+        id: 1323,
         person: {
-          id: 40,
-          avatar: avatarPersonnel,
+          id: 1323,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3dfiS9Z1UPfyD1Kor5dQMsgODPxCkOOAMkNM3qCWcPTvmnPEPD57iyQJpBUxZ2vNA2xrg7rfmsBp_qJ9qjVvXESlcpyk4DzPfx_3CtlRaeEwtlGlczgghMu0-lv8PuSLXBSN53ixeFm_ccrVdDMjf6j=w494-h748-no?authuser=0',
           department: '',
           name: 'Shirish Gupta',
           title: 'Quality Analyst',
@@ -514,10 +545,10 @@ export const AkankshasTeam = [
         // children: [],
       },
       {
-        id: 41,
+        id: 1324,
         person: {
-          id: 41,
-          avatar: avatarPersonnel,
+          id: 1324,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3fK4kuywO7A8dE-zuGberLDEP54UYQnmyhomwvdd3sHSEGPib5A7G0Hma7BmCrUIU2Dsrz2qL1_s4vmEdsUSTIDA4T_KFYxw4nT9WRdX_CqxuJqVBMrNv3PyCKU2CtPEPK9gRdSIkkAn1J282BxnPs=w1026-h1592-no?authuser=0',
           department: '',
           name: 'Shilpa Tiwari',
           title: 'Quality Analyst',
@@ -530,23 +561,23 @@ export const AkankshasTeam = [
     ],
   },
   {
-    id: 42,
+    id: 133,
     person: {
-      id: 42,
-      avatar: avatarPersonnel,
+      id: 133,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3d9bbQf6KVffWXoNvJnPtE0JqWkM3Z50O0iYVKM6yLsB29TuoAh5B_R3_aoqhVF8DPvQXFzJ3-HhHxNVqxCA8MJ6ZBjGxTNMfHpN7YxC7qJqpTW6Nib7nofQa15Emtw2dGraJLwHNojSsyLRzFVwEs=w571-h1016-no?authuser=0',
       department: '',
       name: 'Shivani Pathak',
       title: 'Business Development Head',
-      totalReports: 1,
+      totalReports: 2,
     },
     hasChild: true,
     hasParent: true,
     children: [
       {
-        id: 44,
+        id: 1331,
         person: {
-          id: 44,
-          avatar: avatarPersonnel,
+          id: 1331,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3erjk_wEES3tiUOGKky6s1er2g3gUsAYeCa0p8H2fv-4N_jw99FY_QMaV_1mp8b4fRo7rnljFgbsAUnFvoLlVcAUfOvrOJAGljC4kEnPRN4YakUdMYG2K1lv_n68OVznXwMEB1Fhejn7jKo9scHIJp5=w736-h1592-no?authuser=0',
           department: '',
           name: 'Tulsi Bhujel',
           title: 'Sr. Business Development Executive',
@@ -557,10 +588,10 @@ export const AkankshasTeam = [
         children: [],
       },
       {
-        id: 56,
+        id: 1332,
         person: {
-          id: 56,
-          avatar: avatarPersonnel,
+          id: 1332,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3fqDhCkdqtH3Iem3rYr0QDihqVH1ry2yO9h7zdsKzfpzCF7vpCCT0EQqgaD9uP2PCveYwmqlUaDxOhW_iFJPCjpf30qLy_02Z9WLDEbslf50Re2HMtSDO6-EL-n_mAV5BVmLwh0eWlubW1EVv_zkGI=w295-h411-no?authuser=0',
           department: '',
           name: 'Pallavi Bajpayee',
           title: 'Sr. Business Development Executive',
@@ -573,10 +604,10 @@ export const AkankshasTeam = [
     ],
   },
   {
-    id: 43,
+    id: 134,
     person: {
-      id: 43,
-      avatar: avatarPersonnel,
+      id: 134,
+      avatar: AbhishekPersonnel,
       department: '',
       name: 'Abhishek Shukla',
       title: 'Sr. Project Manager',
@@ -590,10 +621,10 @@ export const AkankshasTeam = [
 
 export const AbhisheksTeam = [
   {
-    id: 45,
+    id: 1341,
     person: {
-      id: 45,
-      avatar: avatarPersonnel,
+      id: 1341,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3dyVYj_GYMe4IZcG-S_RDkkx8FLizvqxCRdtlxKnyKqIKTSx1AtTgNzM5CNyWUmw8pmdXSRfBwHEm0huq-h-FrNbfHYB7EEJ9PWYIPQeaNkLDX-07esxbU5dW9o5ILQQgAR_pxpLp3qYGO2oxeJU-xp=w768-h1024-no?authuser=0',
       department: '',
       name: 'Kausar Ali',
       title: 'Design Lead',
@@ -603,10 +634,10 @@ export const AbhisheksTeam = [
     hasParent: true,
     children: [
       {
-        id: 50,
+        id: 13411,
         person: {
-          id: 50,
-          avatar: avatarPersonnel,
+          id: 13411,
+          avatar: BhupendraPersonnel,
           department: '',
           name: 'Bhupendra',
           title: 'UI/UX Designer',
@@ -617,10 +648,10 @@ export const AbhisheksTeam = [
         children: [],
       },
       {
-        id: 51,
+        id: 13412,
         person: {
-          id: 51,
-          avatar: avatarPersonnel,
+          id: 13412,
+          avatar: PrithvirajPersonnel,
           department: '',
           name: 'Prithviraj',
           title: 'Web Designer',
@@ -633,10 +664,10 @@ export const AbhisheksTeam = [
     ],
   },
   {
-    id: 46,
+    id: 1342,
     person: {
-      id: 46,
-      avatar: avatarPersonnel,
+      id: 1342,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3fA9T20xTYAvGileB83uIcVgL_DGmEgwvXad5YRFu6DidwwGRsXvWSabTS6DW-jej6S_31d-Pp86BdNhsVRF9ksVvcYpshMJTPVpAeEQiCXx2vGulp8JmoHof55FDEbZrvTECpLFh-7g4tP7kkC8EvM=w540-h779-no?authuser=0',
       department: '',
       name: 'Mohsin Abbasi',
       title: 'Sr. Designer',
@@ -647,10 +678,10 @@ export const AbhisheksTeam = [
     // children: [],
   },
   {
-    id: 47,
+    id: 1343,
     person: {
-      id: 47,
-      avatar: avatarPersonnel,
+      id: 1343,
+      avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3f22FqhK0WrwQNPAdvZje5lsTc0BtyTePySx4I2X3kjDCUNLM-Q8K3xOTeiOy2KRMH7KIggPkfHM-Q_YGGH4Mc4GFILtvzhWwE9Rct3qXKkqAcg_b2_slvvTytWwUPW1RzI4UFCWSEyNc2AFZYU-eSK=w828-h1592-no?authuser=0',
       department: '',
       name: 'Dharamendra Parmar',
       title: 'Design Lead',
@@ -660,10 +691,10 @@ export const AbhisheksTeam = [
     hasParent: true,
     children: [
       {
-        id: 52,
+        id: 13431,
         person: {
-          id: 52,
-          avatar: avatarPersonnel,
+          id: 13431,
+          avatar: ImranPersonnel,
           department: '',
           name: 'Imran',
           title: 'Web Designer',
@@ -676,10 +707,10 @@ export const AbhisheksTeam = [
     ],
   },
   {
-    id: 48,
+    id: 1344,
     person: {
-      id: 48,
-      avatar: avatarPersonnel,
+      id: 1344,
+      avatar: RahulPersonnel,
       department: '',
       name: 'Rahul Patidar',
       title: 'Wordpress Development Lead',
@@ -689,12 +720,12 @@ export const AbhisheksTeam = [
     hasParent: true,
     children: [
       {
-        id: 53,
+        id: 13441,
         person: {
-          id: 53,
-          avatar: avatarPersonnel,
+          id: 13441,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3egimxZW0j04x68yrtGyTGf5bFMd6IHsiRjAzUUKy6TH1UkvSz1V0x0hsrcihmrESK_O4WqdnTTrVwsDQVPbPWrZ7ZhmFhXiRLNIKu4kyg9rLsrpbO8TeXt4qP4lxncMHj5uYszP5ok614O8IQMFVeg=w1069-h1520-no?authuser=0',
           department: '',
-          name: 'Divya',
+          name: 'Divya Doshi',
           title: 'Web Developer',
           totalReports: 0,
         },
@@ -703,10 +734,10 @@ export const AbhisheksTeam = [
         children: [],
       },
       {
-        id: 54,
+        id: 13442,
         person: {
-          id: 54,
-          avatar: avatarPersonnel,
+          id: 13442,
+          avatar: YashwantPersonnel,
           department: '',
           name: 'Yashwant',
           title: 'Web Developer',
@@ -717,10 +748,10 @@ export const AbhisheksTeam = [
         children: [],
       },
       {
-        id: 55,
+        id: 13443,
         person: {
-          id: 55,
-          avatar: avatarPersonnel,
+          id: 13443,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3coN4w7IdWZhhyZkJskvdyZUcokO-2Ka4mnCn82ec2IiFbAuqjUqkuz5dlElKRp2rCFyZXQlnOWS9y2G6mjGuvDtBeKEmKkvh3iV4TmRl5C1oW180-E8MlhY7P6yYcGWXhhzJkpmlbNYMFBaULVN0Ki=w726-h1592-no?authuser=0',
           department: '',
           name: 'Roshan',
           title: 'Web Developer',
@@ -733,10 +764,10 @@ export const AbhisheksTeam = [
     ],
   },
   {
-    id: 49,
+    id: 13444,
     person: {
-      id: 49,
-      avatar: avatarPersonnel,
+      id: 13444,
+      avatar: ShadabPersonnel,
       department: '',
       name: 'Shadab Khan',
       title: 'Sr. Web Developer',
@@ -750,10 +781,10 @@ export const AbhisheksTeam = [
 
 export const AnkitsTeam = [
   {
-    id: 21,
+    id: 1231,
     person: {
-      id: 21,
-      avatar: avatarPersonnel,
+      id: 1231,
+      avatar: GarimaPersonnel,
       department: '',
       name: 'Garima Sharma',
       title: 'Full-stack Developer',
@@ -764,10 +795,10 @@ export const AnkitsTeam = [
     // children: [],
   },
   {
-    id: 22,
+    id: 1232,
     person: {
-      id: 22,
-      avatar: avatarPersonnel,
+      id: 1232,
+      avatar: NitinPersonnel,
       department: '',
       name: 'Nitin Dhote',
       title: 'Sr. Full-stack Developer',
@@ -777,10 +808,10 @@ export const AnkitsTeam = [
     hasParent: true,
     children: [
       {
-        id: 25,
+        id: 12321,
         person: {
-          id: 25,
-          avatar: avatarPersonnel,
+          id: 12321,
+          avatar: 'https://lh3.googleusercontent.com/pw/ACtC-3eteeXgFL8wtmP5zm6BGI4I-sJUWQfwwAvtfO0obIst5D7Yw0c-Kkxnw-hubKN-GJHRFJSD9dVPMVNirjBZtnxA8S4RLq01zKLKXGcjJcbsDPQHDjNnwPPA61KUM63Q31-2pjM4rtOaPxeR6wJDu3Aq=w1431-h1440-no?authuser=0',
           department: '',
           name: 'Himanshu Pawar',
           title: 'Full-stack Developer',
@@ -791,10 +822,10 @@ export const AnkitsTeam = [
         // children: [],
       },
       {
-        id: 26,
+        id: 12322,
         person: {
-          id: 26,
-          avatar: avatarPersonnel,
+          id: 12322,
+          avatar: VikalpPersonnel,
           department: '',
           name: 'Vikalp Acharya',
           title: 'Full-stack Developer',
