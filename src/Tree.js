@@ -27,6 +27,7 @@ import YashwantPersonnel from './assets/YASHWANT.jpg';
 import ShadabPersonnel from './assets/avatar-personnel.svg';
 import GarimaPersonnel from './assets/GARIMA.jpg';
 import VikalpPersonnel from './assets/avatar-personnel.svg';
+import ArchanaSharmaPersonnel from './assets/avatar-personnel.svg';
 
 export const Vinay = {
   id: 1,
@@ -363,7 +364,7 @@ export const AmitsTeam = [
       department: '',
       name: 'Pankaj Sharma',
       title: 'Tech lead',
-      totalReports: 2,
+      totalReports: 3,
     },
     hasChild: true,
     hasParent: true,
@@ -389,6 +390,20 @@ export const AmitsTeam = [
           avatar: PrafullPersonnel,
           department: '',
           name: 'Prafull Patidar',
+          title: 'PHP Developer',
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        // children: [],
+      },
+      {
+        id: 13131,
+        person: {
+          id: 13131,
+          avatar: AnshulPersonnel,
+          department: '',
+          name: 'Anshul Bhawasar',
           title: 'PHP Developer',
           totalReports: 0,
         },
@@ -435,25 +450,11 @@ export const AmitsTeam = [
       department: '',
       name: 'Prathak Godawat',
       title: 'Tech lead',
-      totalReports: 2,
+      totalReports: 1,
     },
     hasChild: true,
     hasParent: true,
     children: [
-      {
-        id: 13131,
-        person: {
-          id: 13131,
-          avatar: AnshulPersonnel,
-          department: '',
-          name: 'Anshul Bhawasar',
-          title: 'PHP Developer',
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        // children: [],
-      },
       {
         id: 13132,
         person: {
@@ -880,7 +881,7 @@ export const AnkitsTeam = [
     id: 1233,
     person: {
       id: 1233,
-      avatar: GarimaPersonnel,
+      avatar: ArchanaSharmaPersonnel,
       department: '',
       name: 'Archana Sharma',
       title: 'Full-stack Developer',
