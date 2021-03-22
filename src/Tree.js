@@ -29,6 +29,7 @@ import GarimaPersonnel from "./assets/GARIMA.jpg";
 import VikalpPersonnel from "./assets/avatar-personnel.svg";
 import ArchanaSharmaPersonnel from "./assets/avatar-personnel.svg";
 import AvatarPersonnel from "./assets/avatar-personnel.svg";
+import AshutoshPersonnel from "./assets/ASHUTOSH.jpg";
 
 export const Vinay = {
   id: 1,
@@ -683,8 +684,7 @@ export const AkankshasTeam = [
     id: 136,
     person: {
       id: 136,
-      avatar:
-        "https://lh3.googleusercontent.com/pw/ACtC-3ch3-3XCM-BcKGmXXQ1ozaSkzbIvLX2W9SgTr58uZINwxwNM3SBPTUvWenjfUxkpN_P5Mn-QQh3WQUuxiijjv4zQuZyf3RibLYdXDmSMB0zW8IPecAwGvqENDhqlSMlJI4c07dQFaDwobpexqA0dHI=s1280-no?authuser=0",
+      avatar: AshutoshPersonnel,
       department: "",
       name: "Ashutosh Giri",
       title: "Sr. Business Analyst",
