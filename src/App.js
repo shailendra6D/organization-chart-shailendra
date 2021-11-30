@@ -7,7 +7,6 @@ import {
   VinaysTeam,
   JyotsnasTeam,
   KaynatsTeam,
-  NitikasTeam,
   VibhorsTeam,
   AnkitsTeam,
   AmitsTeam,
@@ -40,8 +39,6 @@ export default class App extends React.Component {
         return AkankshasTeam
       case 112:
         return KaynatsTeam
-      case 1121:
-        return NitikasTeam
       case 123:
         return AnkitsTeam
       case 131:
