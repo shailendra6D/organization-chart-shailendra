@@ -16,6 +16,7 @@ import BhuvneshPic from "./assets/Bhuvnesh.jpg";
 import ChurchillPic from "./assets/Churchill.jpg";
 
 import DeepakPic from "./assets/Deepak.jpg";
+import DikshaPic from "./assets/Diksha.png";
 import DimplePic from "./assets/Dimple.jpg";
 import DivyaMPic from "./assets/Divya.JPG";
 
@@ -41,6 +42,8 @@ import FarhaPic from "./assets/Farha.jpg";
 import TulsiPic from "./assets/Tulsi.jpg";
 import ImranPic from "./assets/Imran.jpg";
 import NupurPic from "./assets/Nupur.jpg";
+import NitikaPic from "./assets/NITIKA.jpg";
+import MiliPic from "./assets/Mili.jpg";
 import KausarPic from "./assets/Kausar.jpg";
 import DharamendraPic from "./assets/Dharm.jpg";
 import ShadabPic from "./assets/Shadab.jpg";
@@ -153,7 +156,7 @@ export const JyotsnasTeam = [
       department: "",
       name: "Kaynat Nasir",
       title: "Digital Marketing Head",
-      totalReports: 1,
+      totalReports: 2,
     },
     hasChild: true,
     hasParent: true,
@@ -208,6 +211,49 @@ export const KaynatsTeam = [
           avatar: WasimPic,
           department: "",
           name: "Wasim Khan",
+          title: "SEO Executive",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 1125,
+    person: {
+      id: 1125,
+      avatar: NitikaPic,
+      department: "",
+      name: "Nitika Lunia",
+      title: "Team Lead - SEO Expert",
+      totalReports: 2,
+    },
+    hasChild: false,
+    hasParent: true,
+    children: [
+      {
+        id: 11251,
+        person: {
+          id: 11251,
+          avatar: MiliPic,
+          department: "",
+          name: "Mili Jain",
+          title: "SEO Executive",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        children: [],
+      },
+      {
+        id: 11252,
+        person: {
+          id: 11252,
+          avatar: DikshaPic,
+          department: "",
+          name: "Diksha Parwani",
           title: "SEO Executive",
           totalReports: 0,
         },
