@@ -16,7 +16,7 @@ import BhuvneshPic from "./assets/Bhuvnesh.jpg";
 import ChurchillPic from "./assets/Churchill.jpg";
 
 import DeepakPic from "./assets/Deepak.jpg";
-import DikshaPic from "./assets/Diksha.png";
+import DikshaPic from "./assets/Disha.png";
 import DimplePic from "./assets/Dimple.jpg";
 import DivyaMPic from "./assets/Divya.JPG";
 
@@ -253,7 +253,7 @@ export const KaynatsTeam = [
           id: 11252,
           avatar: DikshaPic,
           department: "",
-          name: "Diksha Parwani",
+          name: "Disha Parwani",
           title: "SEO Executive",
           totalReports: 0,
         },
