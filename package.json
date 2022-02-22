@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@unicef/react-org-chart": "^0.3.4",
+    "@unicef/react-org-chart": "git+https://github.com/monicapatel1/react-org-chart-1.git",
     "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-d3": "^0.4.0",
