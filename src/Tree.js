@@ -229,7 +229,7 @@ export const KaynatsTeam = [
       department: "",
       name: "Nitika Lunia",
       title: "Team Lead - SEO Expert",
-      totalReports: 2,
+      totalReports: 3,
     },
     hasChild: false,
     hasParent: true,
@@ -437,7 +437,7 @@ export const VibhorsTeam = [
       title: "Quality Analyst",
       totalReports: 1,
     },
-    hasChild: false,
+    hasChild: true,
     hasParent: true,
     children: [
       {
@@ -486,9 +486,9 @@ export const VibhorsTeam = [
     ],
   },
   {
-    id: 125,
+    id: 1242,
     person: {
-      id: 125,
+      id: 1242,
       avatar: AyushS,
       department: "",
       name: "Ayush Sharma",
@@ -804,9 +804,9 @@ export const AkankshasTeam = [
     ],
   },
   {
-    id: 137,
+    id: 1362,
     person: {
-      id: 137,
+      id: 1362,
       avatar: HiteshK,
       department: "",
       name: "Hitesh Karwani",
