@@ -109,7 +109,7 @@ export const VinaysTeam = [
       department: "",
       name: "Vibhor Mungee",
       title: "CTO",
-      totalReports: 6,
+      totalReports: 7,
     },
     hasChild: true,
     hasParent: true,
@@ -335,20 +335,6 @@ export const VibhorsTeam = [
     hasChild: false,
     hasParent: false,
     children: [
-      {
-        id: 1221,
-        person: {
-          id: 1221,
-          avatar: SureshPersonnel,
-          department: "",
-          name: "Suresh Patidar",
-          title: "iOS Developer",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        // children: [],
-      },
     ],
   },
   {
@@ -403,7 +389,7 @@ export const VibhorsTeam = [
       department: "",
       name: "Asif Qureshi",
       title: "Full-stack Lead",
-      totalReports: 5,
+      totalReports: 6,
     },
     hasChild: true,
     hasParent: true,
