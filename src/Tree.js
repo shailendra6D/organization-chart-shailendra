@@ -27,7 +27,6 @@ import KaynatPersonnel from "./assets/KAYNAT.jpg";
 import RatneshPic from "./assets/Ratnesh.jpg";
 import RajnishPic from "./assets/RAJNISH.jpg";
 import PrathakPic from "./assets/Prathak2021.jpg";
-import HemrajPic from "./assets/Hemraj.jpeg";
 import HimanshuPic from "./assets/Himanshu.jpg";
 import ShivaniPathakPic from "./assets/ShivaniP.jpg";
 import PrashantPic from "./assets/Prashant.jpeg";
@@ -60,7 +59,6 @@ import PoojalPersonnel from "./assets/POOJAL.jpg";
 import VinodPersonnel from "./assets/VINOD.jpg";
 import YashwantPersonnel from "./assets/YASHWANT.jpg";
 import ShabnamPersonnel from "./assets/Shabnam.jpeg";
-import SumanPic from "./assets/SUmanSinghphoto.jpg";
 import ManishPic from "./assets/MANISHCHOUBEY.png";
 import JasmeetPic from "./assets/Jasmeet.jpg";
 import SohelPic from "./assets/Sohel.JPEG";
@@ -72,7 +70,6 @@ import KratiB from "./assets/KratiB.jpeg";
 import NikhilV from "./assets/NikhilV.jpg";
 import NikleshV from "./assets/NikleshV.jpg";
 import AyushS from "./assets/AyushS.jpg";
-import HiteshK from "./assets/HiteshK.jpg";
 
 export const Vinay = {
   id: 1,
@@ -329,14 +326,14 @@ export const VibhorsTeam = [
     person: {
       id: 122,
       avatar:
-        HemrajPic,
+      SureshPersonnel,
       department: "",
-      name: "Hemraj Jhariya",
-      title: "iOS Lead",
-      totalReports: 1,
+      name: "Suresh Patidar",
+      title: "iOS Developer",
+      totalReports: 0,
     },
-    hasChild: true,
-    hasParent: true,
+    hasChild: false,
+    hasParent: false,
     children: [
       {
         id: 1221,
@@ -363,7 +360,7 @@ export const VibhorsTeam = [
       department: "",
       name: "Himanshu Pawar",
       title: "Sr. Full-stack Developer",
-      totalReports: 3,
+      totalReports: 2,
     },
     hasChild: true,
     hasParent: true,
@@ -372,20 +369,6 @@ export const VibhorsTeam = [
         id: 12311,
         person: {
           id: 12311,
-          avatar: SumanPic,
-          department: "",
-          name: "Suman Singh",
-          title: "Jr. Full-stack Developer",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        // children: [],
-      },
-      {
-        id: 12312,
-        person: {
-          id: 12312,
           avatar: AmanPic,
           department: "",
           name: "Aman Kanojia",
@@ -397,9 +380,9 @@ export const VibhorsTeam = [
         // children: [],
       },
       {
-        id: 12313,
+        id: 12312,
         person: {
-          id: 12313,
+          id: 12312,
           avatar: ShailendraPic,
           department: "",
           name: "Shailendra Kewat",
@@ -801,20 +784,6 @@ export const AkankshasTeam = [
         children: [],
       },
     ],
-  },
-  {
-    id: 1362,
-    person: {
-      id: 1362,
-      avatar: HiteshK,
-      department: "",
-      name: "Hitesh Karwani",
-      title: "Customer Success Manager (FS)",
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    // children: [ ],
   },
 ];
 
