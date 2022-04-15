@@ -60,7 +60,6 @@ import VinodPersonnel from "./assets/VINOD.jpg";
 import YashwantPersonnel from "./assets/YASHWANT.jpg";
 import ShabnamPersonnel from "./assets/Shabnam.jpeg";
 import ManishPic from "./assets/MANISHCHOUBEY.png";
-import JasmeetPic from "./assets/Jasmeet.jpg";
 import SohelPic from "./assets/Sohel.JPEG";
 import GautamPic from "./assets/Gautam.jpg";
 import AbhilashaPic from "./assets/Abhilasha.jpg";
@@ -650,7 +649,7 @@ export const AkankshasTeam = [
       department: "",
       name: "Shivani Pathak",
       title: "Business Development Head",
-      totalReports: 2,
+      totalReports: 1,
     },
     hasChild: true,
     hasParent: true,
@@ -663,20 +662,6 @@ export const AkankshasTeam = [
           department: "",
           name: "Tulsi Bhujel",
           title: "Sr. Business Development Executive",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        children: [],
-      },
-      {
-        id: 1332,
-        person: {
-          id: 1332,
-          avatar: JasmeetPic,
-          department: "",
-          name: "Jasmeet Kaur",
-          title: "Business Development Executive",
           totalReports: 0,
         },
         hasChild: false,
