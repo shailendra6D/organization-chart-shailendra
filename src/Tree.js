@@ -9,9 +9,11 @@ import ApoorvaPic from "./assets/Apoorva.jpg";
 import AkankshaPic from "./assets/akanksha.jpeg";
 import PratikMishraPic from "./assets/PratikMishra.jpg";
 import PardeepRanaPic from "./assets/PardeepRana.png";
+import SaloniJummani from "./assets/Saloni_Jummani.jpeg";
 import BalramPic from "./assets/Balram.jpg";
 import KuldeepRathorePic from "./assets/KuldeepRathore.jpg";
 import AmishaMalviyaPic from "./assets/AmishaMalviya.jpg";
+import SuchitaSisodiya from "./assets/Suchita_Sisodiya.JPEG";
 import BhuvneshPic from "./assets/Bhuvnesh.jpg";
 import ShivaliMalviyaPic from "./assets/ShivaliMalviya.jpg";
 import ChurchillPic from "./assets/Churchill.jpg";
@@ -154,7 +156,7 @@ export const JyotsnasTeam = [
       department: "",
       name: "Kaynat Nasir",
       title: "Digital Marketing Head",
-      totalReports: 4,
+      totalReports: 5,
     },
     hasChild: true,
     hasParent: true,
@@ -252,7 +254,7 @@ export const KaynatsTeam = [
           avatar: NikleshV,
           department: "",
           name: "Niklesh Verma",
-          title: "Trainee SEO",
+          title: "SEO Executive",
           totalReports: 0,
         },
         hasChild: false,
@@ -297,6 +299,20 @@ export const KaynatsTeam = [
       department: "",
       name: "Pardeep Rana",
       title: "PPC / Shopping Campaign Marketing Executive",
+      totalReports: 0,
+    },
+    hasChild: false,
+    hasParent: true,
+    // children: [],
+  },
+  {
+    id: 1128,
+    person: {
+      id: 1128,
+      avatar: SaloniJummani,
+      department: "",
+      name: "Saloni Jummani",
+      title: "Content Writer",
       totalReports: 0,
     },
     hasChild: false,
@@ -417,7 +433,7 @@ export const VibhorsTeam = [
       department: "",
       name: "Asif Qureshi",
       title: "Full-stack Lead",
-      totalReports: 5,
+      totalReports: 6,
     },
     hasChild: true,
     hasParent: true,
@@ -776,7 +792,7 @@ export const AkankshasTeam = [
           avatar: ApoorvaPic,
           department: "",
           name: "Apoorva Batra",
-          title: "Business Analyst Intern",
+          title: "Business Analyst",
           totalReports: 0,
         },
         hasChild: false,
@@ -965,7 +981,7 @@ export const AbhisheksTeam = [
           avatar: ShivaliMalviyaPic,
           department: "",
           name: "Shivali Malviya",
-          title: "QA Intern",
+          title: "Jr. Quality Analyst",
           totalReports: 0,
         },
         hasChild: false,
@@ -1062,5 +1078,20 @@ export const AnkitsTeam = [
     hasChild: false,
     hasParent: true,
     // children: [],
+  },
+  {
+    id: 12327,
+    person: {
+      id: 12327,
+      avatar: SuchitaSisodiya,
+      department: "",
+      name: "Suchita Sisodiya",
+      title: "Jr. Full Stack Developer",
+      totalReports: 0,
+    },
+    hasChild: false,
+    hasParent: true,
+    // children: [],
   }
+
 ];
