@@ -17,6 +17,7 @@ import SuchitaSisodiya from "./assets/Suchita_Sisodiya.JPEG";
 import BhuvneshPic from "./assets/Bhuvnesh.jpg";
 import ShivaliMalviyaPic from "./assets/ShivaliMalviya.jpg";
 import ChurchillPic from "./assets/Churchill.jpg";
+import ShaliniLashkari from "./assets/ShaliniLashkari.jpg";
 
 import DikshaPic from "./assets/Disha.png";
 import DivyaMPic from "./assets/Divya.JPG";
@@ -156,7 +157,7 @@ export const JyotsnasTeam = [
       department: "",
       name: "Kaynat Nasir",
       title: "Digital Marketing Head",
-      totalReports: 5,
+      totalReports: 3,
     },
     hasChild: true,
     hasParent: true,
@@ -185,7 +186,7 @@ export const KaynatsTeam = [
       department: "",
       name: "Shadab Khan",
       title: "Team Lead - SEO Expert",
-      totalReports: 2,
+      totalReports: 5,
     },
     hasChild: false,
     hasParent: true,
@@ -218,6 +219,63 @@ export const KaynatsTeam = [
         hasParent: true,
         children: [],
       },
+      {
+        id: 11215,
+        person: {
+          id: 11215,
+          avatar: NikleshV,
+          department: "",
+          name: "Niklesh Verma",
+          title: "SEO Executive",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        children: [],
+      },
+      {
+        id: 11216,
+        person: {
+          id: 11216,
+          avatar: ShaliniLashkari,
+          department: "",
+          name: "Shalini Lashkari",
+          title: "Content Writer",
+          totalReports: 1,
+        },
+        hasChild: false,
+        hasParent: true,
+        children: [
+          {
+            id: 11218,
+            person: {
+              id: 11218,
+              avatar: SaloniJummani,
+              department: "",
+              name: "Saloni Jummani",
+              title: "Content Writer",
+              totalReports: 0,
+            },
+            hasChild: false,
+            hasParent: true,
+            // children: [],
+          },
+        ],
+      },
+      {
+        id: 11217,
+        person: {
+          id: 11217,
+          avatar: PratikMishraPic,
+          department: "",
+          name: "Prateek Mishra",
+          title: "Sr. SEO & DM Associate",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        // children: [],
+      }
     ],
   },
   {
@@ -228,7 +286,7 @@ export const KaynatsTeam = [
       department: "",
       name: "Nitika Lunia",
       title: "Team Lead - SEO Expert",
-      totalReports: 3,
+      totalReports: 2,
     },
     hasChild: false,
     hasParent: true,
@@ -248,23 +306,9 @@ export const KaynatsTeam = [
         children: [],
       },
       {
-        id: 11253,
+        id: 11252,
         person: {
-          id: 11253,
-          avatar: NikleshV,
-          department: "",
-          name: "Niklesh Verma",
-          title: "SEO Executive",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        children: [],
-      },
-      {
-        id: 112531,
-        person: {
-          id: 112531,
+          id: 11252,
           avatar: ShimulPic,
           department: "",
           name: "Shimul Roy",
@@ -275,22 +319,10 @@ export const KaynatsTeam = [
         hasParent: true,
         children: [],
       },
+
     ],
   },
-  {
-    id: 1126,
-    person: {
-      id: 1126,
-      avatar: PratikMishraPic,
-      department: "",
-      name: "Prateek Mishra",
-      title: "Sr. SEO & DM Associate",
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    // children: [],
-  },
+
   {
     id: 1127,
     person: {
@@ -305,20 +337,7 @@ export const KaynatsTeam = [
     hasParent: true,
     // children: [],
   },
-  {
-    id: 1128,
-    person: {
-      id: 1128,
-      avatar: SaloniJummani,
-      department: "",
-      name: "Saloni Jummani",
-      title: "Content Writer",
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
-    // children: [],
-  },
+
 ];
 
 export const VibhorsTeam = [
@@ -356,7 +375,7 @@ export const VibhorsTeam = [
     person: {
       id: 122,
       avatar:
-      SureshPersonnel,
+        SureshPersonnel,
       department: "",
       name: "Suresh Patidar",
       title: "iOS Developer",
@@ -541,7 +560,7 @@ export const AmitsTeam = [
     },
     hasChild: false,
     hasParent: true,
-   // children: [],
+    // children: [],
   },
   {
     id: 1313,
