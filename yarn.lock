@@ -1567,10 +1567,9 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@unicef/react-org-chart@^0.3.4":
+"@unicef/react-org-chart@git+https://github.com/monicapatel1/react-org-chart-1.git":
   version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@unicef/react-org-chart/-/react-org-chart-0.3.4.tgz#2b42efd6027dbd4024523ca8852a2a753e5841cf"
-  integrity sha512-svEnkSzaP2h4TNurTpuw+7VIbDWK9s2/adel7ErlLL6ItXNnFKvdDnGmtjjS3WCAaddxcuDoc87NtAVb+sV7xQ==
+  resolved "git+https://github.com/monicapatel1/react-org-chart-1.git#d0afc76ff68368848eb179670d20c4581d7b46b1"
   dependencies:
     d3-save-svg "0.0.2"
     jspdf "^1.5.3"
