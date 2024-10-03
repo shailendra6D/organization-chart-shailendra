@@ -47,6 +47,7 @@ import VinodPersonnel from "./assets/VINOD.jpg";
 import ShabnamPersonnel from "./assets/Shabnam.jpeg";
 import GautamPic from "./assets/Gautam.jpg";
 import AtulKumarMishraPic from "./assets/Atul-Kumar-Mishra.jpg";
+import ApoorvaPic from "./assets/apporvaBatra.jpg";
 import ShailendraPic from "./assets/Shailendra.jpg";
 import VibhorPic from "./assets/vibhor.jpeg";
 import NikleshV from "./assets/NikleshV.jpg";
@@ -473,11 +474,25 @@ export const AkankshasTeam = [
       department: "",
       name: "Shabnam Khan",
       title: "Sr. Business Analyst",
-      totalReports: 1,
+      totalReports: 2,
     },
     hasChild: true,
     hasParent: true,
     children: [
+      {
+        id: 1360,
+        person: {
+          id: 1360,
+          avatar: ApoorvaPic,
+          department: "",
+          name: "Apoorva Batra",
+          title: "Assistant Business Analyst cum Project Co-Ordinator",
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        // children: [],
+      },
       {
         id: 1361,
         person: {
