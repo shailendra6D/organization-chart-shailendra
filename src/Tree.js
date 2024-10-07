@@ -33,7 +33,7 @@ import AtulPaliwal from "./assets/AtulPaliwal.jpg";
 
 import KausarPic from "./assets/Kausar.jpg";
 import DharamendraPic from "./assets/Dharm.jpg";
-import ShadabPic from "./assets/Shadab.jpg";
+// import ShadabPic from "./assets/Shadab.jpg";
 
 import SakshiPersonnel from "./assets/SakshiD.jpg";
 import MonicaPersonnel from "./assets/MONICA.jpg";
