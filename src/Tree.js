@@ -257,7 +257,22 @@ export const KaynatsTeam = [
     hasChild: false,
     hasParent: true,
     // children: [],
-  }
+  },
+  {
+    id: 1124,
+    person: {
+      id: 1124,
+      avatar: ShadabPic,
+      department: "",
+      name: "Shadab Khan",
+      title: "Team Lead - SEO Expert",
+      totalReports: 0,
+    },
+    hasChild: false,
+    hasParent: true,
+    children: [],
+  },
+
 ];
 
 export const VibhorsTeam = [
