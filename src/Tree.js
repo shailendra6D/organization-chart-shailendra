@@ -159,20 +159,6 @@ export const JyotsnasTeam = [
 ];
 
 export const KaynatsTeam = [
-  // {
-  //   id: 1124,
-  //   person: {
-  //     id: 1124,
-  //     avatar: ShadabPic,
-  //     department: "",
-  //     name: "Shadab Khan",
-  //     title: "Team Lead - SEO Expert",
-  //     totalReports: 4,
-  //   },
-  //   hasChild: false,
-  //   hasParent: true,
-  //   children: [],
-  // },
   {
     id: 1125,
     person: {
