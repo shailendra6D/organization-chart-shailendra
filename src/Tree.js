@@ -160,9 +160,9 @@ export const JyotsnasTeam = [
 
 export const KaynatsTeam = [
   {
-    id: 1125,
+    id: 1124,
     person: {
-      id: 1125,
+      id: 1124,
       avatar: NitikaPic,
       department: "",
       name: "Nitika Lunia",
@@ -173,9 +173,9 @@ export const KaynatsTeam = [
     hasParent: true,
     children: [
       {
-        id: 11251,
+        id: 11241,
         person: {
-          id: 11251,
+          id: 11241,
           avatar: AtulPaliwal,
           department: "",
           name: "Atul Paliwal",
@@ -187,9 +187,9 @@ export const KaynatsTeam = [
         children: [],
       },
       {
-        id: 11252,
+        id: 11242,
         person: {
-          id: 11252,
+          id: 11242,
           avatar: BhuvneshPic,
           department: "",
           name: "Bhuvnesh Mali",
@@ -201,9 +201,9 @@ export const KaynatsTeam = [
         children: [],
       },
       {
-        id: 11253,
+        id: 11243,
         person: {
-          id: 11253,
+          id: 11243,
           avatar: DikshaPic,
           department: "",
           name: "Disha Parwani",
@@ -215,9 +215,9 @@ export const KaynatsTeam = [
         children: [],
       },
       {
-        id: 11254,
+        id: 11244,
         person: {
-          id: 11254,
+          id: 11244,
           avatar: NikleshV,
           department: "",
           name: "Niklesh Verma",
@@ -229,9 +229,9 @@ export const KaynatsTeam = [
         children: [],
       },
       {
-        id: 11255,
+        id: 11245,
         person: {
-          id: 11255,
+          id: 11245,
           avatar: ShaliniLashkari,
           department: "",
           name: "Shalini Lashkari",
@@ -256,23 +256,8 @@ export const KaynatsTeam = [
     },
     hasChild: false,
     hasParent: true,
-    // children: [],
-  },
-  {
-    id: 1124,
-    person: {
-      id: 1124,
-      avatar: ShadabPic,
-      department: "",
-      name: "Shadab Khan",
-      title: "Team Lead - SEO Expert",
-      totalReports: 0,
-    },
-    hasChild: false,
-    hasParent: true,
     children: [],
-  },
-
+  }
 ];
 
 export const VibhorsTeam = [
