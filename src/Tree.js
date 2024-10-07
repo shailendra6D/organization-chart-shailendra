@@ -138,7 +138,7 @@ export const JyotsnasTeam = [
       department: "",
       name: "Kaynat Nasir",
       title: "Digital Marketing Head",
-      totalReports: 3,
+      totalReports: 2,
     },
     hasChild: true,
     hasParent: true,
@@ -159,77 +159,20 @@ export const JyotsnasTeam = [
 ];
 
 export const KaynatsTeam = [
-  {
-    id: 1124,
-    person: {
-      id: 1124,
-      avatar: ShadabPic,
-      department: "",
-      name: "Shadab Khan",
-      title: "Team Lead - SEO Expert",
-      totalReports: 4,
-    },
-    hasChild: false,
-    hasParent: true,
-    children: [
-      {
-        id: 11213,
-        person: {
-          id: 11213,
-          avatar: BhuvneshPic,
-          department: "",
-          name: "Bhuvnesh Mali",
-          title: "SEO Executive",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        children: [],
-      },
-      {
-        id: 11214,
-        person: {
-          id: 11214,
-          avatar: DikshaPic,
-          department: "",
-          name: "Disha Parwani",
-          title: "SEO Executive",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        children: [],
-      },
-      {
-        id: 11215,
-        person: {
-          id: 11215,
-          avatar: NikleshV,
-          department: "",
-          name: "Niklesh Verma",
-          title: "SEO Executive",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        children: [],
-      },
-      {
-        id: 11216,
-        person: {
-          id: 11216,
-          avatar: ShaliniLashkari,
-          department: "",
-          name: "Shalini Lashkari",
-          title: "Content Writer",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        children: [],
-      },
-    ],
-  },
+  // {
+  //   id: 1124,
+  //   person: {
+  //     id: 1124,
+  //     avatar: ShadabPic,
+  //     department: "",
+  //     name: "Shadab Khan",
+  //     title: "Team Lead - SEO Expert",
+  //     totalReports: 4,
+  //   },
+  //   hasChild: false,
+  //   hasParent: true,
+  //   children: [],
+  // },
   {
     id: 1125,
     person: {
