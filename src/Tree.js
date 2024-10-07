@@ -12,7 +12,8 @@ import KunalRokhle from "./assets/KunalRokhle.jpg";
 import BhuvneshPic from "./assets/Bhuvnesh.jpg";
 import ShivaliMalviyaPic from "./assets/ShivaliMalviya.jpg";
 import ShaliniLashkari from "./assets/ShaliniLashkari.jpg";
-
+import PriyalPic from "./assets/priyalMakwana.jpeg";
+import MahimaPic from "./assets/mahimaSoni.jpg";
 import DikshaPic from "./assets/Disha.png";
 import DivyaMPic from "./assets/Divya.JPG";
 import AbdulAlimPic from "./assets/AbdulAlim.jpg";
@@ -721,7 +722,7 @@ export const AnkitsTeam = [
         department: "",
         name: "Kunal Rokhle",
         title: "MERN Stack Developer",
-        totalReports: 1,
+        totalReports: 2,
       },
       hasChild: false,
       hasParent: true,
@@ -729,11 +730,25 @@ export const AnkitsTeam = [
         id: 1232411,
         person: {
           id: 1232411,
-          avatar: KunalRokhle,
+          avatar: PriyalPic,
           department: "",
-          name: "Piyush Makwana",
+          name: "Priyal Makwana",
           title: "Junior Full Stack Developer",
-          totalReports: 2,
+          totalReports: 0,
+        },
+        hasChild: false,
+        hasParent: true,
+        // children: [],
+      },
+      {
+        id: 1232412,
+        person: {
+          id: 1232412,
+          avatar: MahimaPic,
+          department: "",
+          name: "Mahima Soni",
+          title: "Junior Full Stack Developer",
+          totalReports: 0,
         },
         hasChild: false,
         hasParent: true,
