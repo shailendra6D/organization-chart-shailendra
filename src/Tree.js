@@ -138,7 +138,7 @@ export const JyotsnasTeam = [
       department: "",
       name: "Kaynat Nasir",
       title: "Digital Marketing Head",
-      totalReports: 2,
+      totalReports: 3,
     },
     hasChild: true,
     hasParent: true,
@@ -159,6 +159,20 @@ export const JyotsnasTeam = [
 ];
 
 export const KaynatsTeam = [
+  {
+    id: 1124,
+    person: {
+      id: 1124,
+      avatar: ShadabPic,
+      department: "",
+      name: "Shadab Khan",
+      title: "Team Lead - SEO Expert",
+      totalReports: 0,
+    },
+    hasChild: false,
+    hasParent: true,
+    children: [],
+  },
   {
     id: 1125,
     person: {
