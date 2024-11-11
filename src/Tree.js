@@ -12,6 +12,7 @@ import KunalRokhle from "./assets/KunalRokhle.jpg";
 import BhuvneshPic from "./assets/Bhuvnesh.jpg";
 import ShivaliMalviyaPic from "./assets/ShivaliMalviya.jpg";
 import ShaliniLashkari from "./assets/ShaliniLashkari.jpg";
+import RaghvendraPic from "./assets/Raghvendra.jpg";
 import PriyalPic from "./assets/priyalMakwana.jpeg";
 import MahimaPic from "./assets/mahimaSoni.jpg";
 import DikshaPic from "./assets/Disha.png";
@@ -236,11 +237,26 @@ export const KaynatsTeam = [
           department: "",
           name: "Shalini Lashkari",
           title: "Content Writer",
-          totalReports: 0,
+          totalReports: 1,
         },
         hasChild: false,
         hasParent: true,
-        children: [],
+        children: [
+          {
+            id: 112451,
+            person: {
+              id: 112451,
+              avatar: RaghvendraPic,
+              department: "",
+              name: "Raghvendra Singh Chouhan",
+              title: "Content Writer Intern",
+              totalReports: 0,
+            },
+            hasChild: false,
+            hasParent: true,
+            children: [],
+          },
+        ],
       },
     ],
   },
