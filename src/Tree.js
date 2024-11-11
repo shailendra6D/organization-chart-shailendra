@@ -527,35 +527,6 @@ export const AkankshasTeam = [
 
 export const AbhisheksTeam = [
   {
-    id: 1341,
-    person: {
-      id: 1341,
-      avatar: KausarPic,
-      department: "",
-      name: "Kausar Ali",
-      title: "Design Lead",
-      totalReports: 1,
-    },
-    hasChild: true,
-    hasParent: true,
-    children: [
-      {
-        id: 13412,
-        person: {
-          id: 13412,
-          avatar: VaishaliPic,
-          department: "",
-          name: "Vaishali Kaithwas",
-          title: "Trainee UI/Ux Designer",
-          totalReports: 0,
-        },
-        hasChild: false,
-        hasParent: true,
-        // children: [],
-      }
-    ],
-  },
-  {
     id: 1342,
     person: {
       id: 1342,
