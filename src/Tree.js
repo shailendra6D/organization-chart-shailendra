@@ -534,13 +534,11 @@ export const AbhisheksTeam = [
       department: "",
       name: "Kausar Ali",
       title: "Design Lead",
-      totalReports: 1,
+      totalReports: 0,
     },
     hasChild: true,
     hasParent: true,
-    children: [
-      
-    ],
+    // children: []
   },
   {
     id: 1342,
