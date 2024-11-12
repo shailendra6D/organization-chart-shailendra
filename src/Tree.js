@@ -526,7 +526,7 @@ export const AbhisheksTeam = [
           id: 13431,
           avatar: ImranPic,
           department: "",
-          name: "Imran",
+          name: "Imran Khan",
           title: "Web Designer",
           totalReports: 0,
         },
